@@ -1,1 +1,2 @@
 # Simple-Service-Performance
+Developed a Python script to probe SNMP agents, measuring the rate of change for multiple OIDs between successive samples. The script handles both 32-bit and 64-bit counter types, addressing counter wraps and SNMP agent restarts. Additionally, it supports the GAUGE and OCTET_STR types. The output displays sample time in UNIX format and the rate of change for each OID or the value for OCTET_STR. Highly configurable, supporting variable sampling frequencies and a specified number of samples. Ideal for network monitoring and performance analysi
